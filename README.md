@@ -1,1 +1,152 @@
-# student-scores-calculator
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Score Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Score Calculator</h1>
+
+        <p>Enter student scores to calculate totals and grades.</p>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Student</th>
+
+                    <th>CA 1</th>
+
+                    <th>CA 2</th>
+
+                    <th>CA 3</th>
+
+                    <th>Exam</th>
+
+                    <th>Total</th>
+
+                    <th>Grade</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="studentTable">
+
+                <tr>
+
+                    <td>Student 1</td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td class="total">0</td>
+
+                    <td class="grade">-</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Student 2</td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td class="total">0</td>
+
+                    <td class="grade">-</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Student 3</td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td class="total">0</td>
+
+                    <td class="grade">-</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Student 4</td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td class="total">0</td>
+
+                    <td class="grade">-</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Student 5</td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td><input type="number" class="score" min="0"></td>
+
+                    <td class="total">0</td>
+
+                    <td class="grade">-</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
